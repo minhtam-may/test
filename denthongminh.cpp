@@ -1,11 +1,10 @@
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 class thoi_Tiet
 {
 	protected:
 		int humid;
-		int cur_humid==0;
+		int cur_humid = 0;
 	public:
 		void nhapvaodoam()
 		{cout<< "\nNhap do am hien tai: " ; cin>> cur_humid;}
